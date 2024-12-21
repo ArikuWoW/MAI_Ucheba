@@ -1,7 +1,7 @@
 import time
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from System_Design_Laba3.main import Base, UserDB, ReportDB, ConferenceDB
+from main import Base, UserDB, ReportDB, ConferenceDB
 from passlib.context import CryptContext
 
 # Настройка PostgreSQL
